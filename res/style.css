@@ -15,7 +15,7 @@ body {
     color: #424242;
 }
 
-aside{
+aside {
     position: fixed;
     z-index: 100;
     top: 0;
