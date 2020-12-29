@@ -1,1 +1,1 @@
-# sanitizepeople.github.io
+Mini Project Progate 2
