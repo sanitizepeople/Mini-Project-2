@@ -17,6 +17,7 @@ body {
 
 aside{
     position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     display: flex;
@@ -124,5 +125,22 @@ footer a {
     header p,
     section ul li {
         width: 600px;
+    }
+}
+
+@media (prefers-color-scheme:dark) {
+
+    body,
+    aside {
+        background: #263238;
+        color: #fff;
+    }
+
+    img {
+        filter: grayscale(25%);
+    }
+
+    footer a {
+        background: url(progate-white.png) center center no-repeat;
     }
 }
